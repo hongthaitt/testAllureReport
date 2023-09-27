@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "env": "current_staging",
+      "userMagentoCloud": "1.ent-2d4zyvpqknsng-staging-5em2ouy",
+      "hostMagentoCloud": "ssh.eu-3.magento.cloud",
+      "hostDBName": "127.0.0.1",
+      "portDB": "3306",
+      "userDB": "2d4zyvpqknsng_stg",
+      "passDB": "dK82HcsRwmm0rIJ",
+      "schema": "2d4zyvpqknsng_stg"
+    },
+    {
+      "env": "master_migrate",
+      "userMagentoCloud": "1.ent-vt2pniqibrqv6-staging-5em2ouy",
+      "hostMagentoCloud": "ssh.eu-3.magento.cloud",
+      "hostDBName": "127.0.0.1",
+      "portDB": "3306",
+      "userDB": "vt2pniqibrqv6_stg",
+      "passDB": "bGylcS2E2BpOiTY",
+      "schema": "vt2pniqibrqv6_stg"
+    },
+    {
+      "env": "staging migration",
+      "userMagentoCloud": "2kbworgvru3da-master-7rqtwti--mymagento",
+      "hostMagentoCloud": "ssh.az-westeurope-1.magento.cloud",
+      "hostDBName": "database.internal",
+      "portDB": "3306",
+      "userDB": "user",
+      "passDB": "",
+      "schema": "main"
+    },
+    {
+      "env": "stg2_gp1",
+      "userMagentoCloud": "1.ent-vt2pniqibrqv6-staging2-5zxmgzy",
+      "hostMagentoCloud": "ssh.eu-3.magento.cloud",
+      "hostDBName": "127.0.0.1",
+      "portDB": "3306",
+      "userDB": "vt2pniqibrqv6_stg2",
+      "passDB": "zSDixUYKXzRG1pv",
+      "schema": "vt2pniqibrqv6_stg2"
+    },
+    {
+      "env": "stg2_gp2",
+      "userMagentoCloud": "3.ent-2d4zyvpqknsng-staging2-5zxmgzy",
+      "hostMagentoCloud": "ssh.eu-3.magento.cloud",
+      "hostDBName": "127.0.0.1",
+      "portDB": "3306",
+      "userDB": "2d4zyvpqknsng_stg2",
+      "passDB": "JNRWYQto4ZAbYvK",
+      "schema": "2d4zyvpqknsng_stg2"
+    }
+  ]
+}

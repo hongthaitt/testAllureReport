@@ -1,0 +1,10 @@
+ public static DatabaseInfo getDatabaseinfoFromJson(String env) {
+        String dataFile = CommonConstant.FilePath.DATA_TEST + File.separator + "json" + File.separator + "databaseInfo" + ".json";
+        DatabaseManage databaseManage = new Gson()
+                .fromJson(CommonUtils.loadJsonFile(dataFile), DatabaseManage.class);
+        List<DatabaseInfo> databaseInfoList = databaseManage.getData();
+        DatabaseInfo databaseInfo = databaseInfoList.stream()
+                .filter(u -> u.getEnv().equalsIgnoreCase(env))
+                .findFirst().orElse(null);
+        return databaseInfo;
+    }
